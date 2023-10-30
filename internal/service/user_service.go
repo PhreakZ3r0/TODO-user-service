@@ -16,3 +16,5 @@ func (s *UserService) CreateUser(user *model.User) error {
 func (s *UserService) GetUserByID(id string) (*model.User, error) {
 	return s.repo.GetUserByID(id)
 }
+
+fun (s *UserSErvice) RegisterUser()
